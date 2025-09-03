@@ -1,5 +1,4 @@
 # Multi-Agent-Documentation-Assistant
-# Multi-Agent Documentation Assistant
 
 A Python-based CrewAI application that uses autonomous agents powered by Groq LLaMA 3.3 (70B) to **summarize** and **translate** technical documentation.
 
