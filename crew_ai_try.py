@@ -2,7 +2,7 @@ from crewai import Agent, Task, Crew, LLM
 import os
 
 # Set your API key (you can also use `setx GROQ_API_KEY` in terminal to make it permanent)
-os.environ['GROQ_API_KEY'] = "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"
+os.environ['GROQ_API_KEY'] = " " #add your own api key
 
 # Initialize Groq LLM
 llm = LLM(model="groq/llama-3.3-70b-versatile")
@@ -52,3 +52,4 @@ crew = Crew(
 result = crew.kickoff()
 print("\n✅ Final Output:")
 print(result)
+
