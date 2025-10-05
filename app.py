@@ -3,7 +3,7 @@ import os
 from crewai import Agent, Task, Crew, LLM
 
 
-GROQ_API_KEY = "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"
+GROQ_API_KEY = "  " #add your own api key
 
 INDIAN_LANGUAGES = [
     "Hindi", "Bengali", "Marathi", "Telugu", "Tamil",
@@ -126,5 +126,6 @@ if st.button("3. Run Workflow", type="primary"):
             st.subheader("Breakdown (Check Log for Intermediate Steps)")
             st.info(f"The final output above is the **{selected_language}** translation. Expand the **Crew Execution Log** to see the English summary generated in the first step.")
         
+
 
 
